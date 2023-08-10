@@ -1,0 +1,25 @@
+{
+  "author": {
+    "email": "danielterletzkiy@gmail.com",
+    "name": "Daniel Terletzkiy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DanielTerletzkiy/vuelize"
+  },
+  "homepage": "https://danielterletzkiy.github.io/vuelize",
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "dependencies": {
+    "markdown-it-container": "^3.0.0",
+    "vitepress": "^1.0.0-beta.5",
+    "vuelize": "file:../vuelize/vuelize-0.1.62.tgz"
+  },
+  "devDependencies": {
+    "vue": "^3.3.4"
+  }
+}
