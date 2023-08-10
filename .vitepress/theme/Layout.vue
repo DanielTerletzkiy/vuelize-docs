@@ -2,28 +2,7 @@
 import {author, repository} from "../../package.json"
 import {computed, onMounted, ref} from "vue";
 import {useData, useRoute} from 'vitepress'
-import {
-  BlurAmount,
-  DAccordion,
-  DButton,
-  DCard,
-  DCardSubtitle,
-  DCardTitle,
-  DColumn,
-  DDivider,
-  DIcon,
-  DImage,
-  DList,
-  DListItem,
-  DNavigationBar,
-  DRoot,
-  DRow,
-  DSpacer,
-  DToolbar,
-  Rounded,
-  ThemeColorProperty,
-  ThemeSheetProperty
-} from "vuelize";
+import {BlurAmount, Rounded, ThemeColorProperty, ThemeSheetProperty} from "vuelize";
 
 // https://vitepress.dev/reference/runtime-api#usedata
 const {site, page} = useData()
@@ -94,9 +73,12 @@ onMounted(() => {
       <template v-slot:footer>
         <d-card :rounded="Rounded.none" block elevation="n15" height="400px">
           <d-row align="center" height="100%" justify="space-evenly">
-            <d-column elevation="n2" gap height="320px" width="250px">
-              <d-image :src="themeConfig.logo.toString()" class="logo" rounded="none" width="100%"/>
-              <d-row justify="center">
+            <d-column :wrap="false" class="banner" elevation="n6" gap glow height="300px" no-padding width="250px">
+              <d-spacer/>
+              <d-image-diffuse :rounded="Rounded.xl" :src="themeConfig.logo.toString()" blur-amount="100px"
+                               width="100%"/>
+              <d-spacer/>
+              <d-row class="mb-10" justify="center">
                 <d-column :wrap="false" height="50px">
                   <d-card-title class="font-size-large pt-0">{{ site.title }}</d-card-title>
                   <d-card-subtitle class="pb-0">{{ site.description }}</d-card-subtitle>
@@ -174,5 +156,9 @@ onMounted(() => {
 .logo {
   display: flex;
   align-items: center;
+}
+
+.banner {
+  overflow: hidden;
 }
 </style>
