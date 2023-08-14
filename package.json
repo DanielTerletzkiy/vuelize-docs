@@ -15,11 +15,11 @@
     "docs:preview": "vitepress preview"
   },
   "dependencies": {
-    "vitepress": "^1.0.0-rc.4"
+    "vitepress": "^1.0.0-rc.4",
+    "vuelize": "^1.0.0"
   },
   "devDependencies": {
     "markdown-it-container": "^3.0.0",
-    "vuelize": "file:../vuelize/vuelize-0.1.62.tgz",
     "vue": "^3.3.4"
   }
 }

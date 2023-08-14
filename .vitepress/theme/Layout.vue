@@ -71,9 +71,9 @@ onMounted(() => {
         <Content/>
       </d-column>
       <template v-slot:footer>
-        <d-card :rounded="Rounded.none" block elevation="n15" height="400px">
+        <d-card :rounded="Rounded.none" block elevation="n6" height="400px">
           <d-row align="center" height="100%" justify="space-evenly">
-            <d-column :wrap="false" class="banner" elevation="n6" gap glow height="300px" no-padding width="250px">
+            <d-column :wrap="false" class="banner" elevation="n3" gap glow height="300px" no-padding width="250px">
               <d-spacer/>
               <d-image-diffuse :rounded="Rounded.xl" :src="themeConfig.logo.toString()" blur-amount="100px"
                                width="100%"/>
@@ -86,8 +86,8 @@ onMounted(() => {
               </d-row>
             </d-column>
             <d-row gap width="max-content">
-              <d-column :rounded="Rounded.xl" elevation="n10" no-padding width="max-content">
-                <d-card-title class="font-size-medium font-weight-bold" elevation="n2">
+              <d-column :rounded="Rounded.xl" elevation="n8" no-padding width="max-content">
+                <d-card-title class="font-size-medium font-weight-bold" elevation="n1">
                   Author
                 </d-card-title>
                 <d-row class="pa-4" justify="start">
@@ -115,8 +115,8 @@ onMounted(() => {
                   </d-column>
                 </d-row>
               </d-column>
-              <d-column :rounded="Rounded.xl" elevation="n10" no-padding width="max-content">
-                <d-card-title class="font-size-medium font-weight-bold" elevation="n2">
+              <d-column :rounded="Rounded.xl" elevation="n8" no-padding width="max-content">
+                <d-card-title class="font-size-medium font-weight-bold" elevation="n1">
                   Made with
                 </d-card-title>
                 <d-row class="pa-4" justify="starts">
