@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db674584-fb20-4085-a5ba-086ba1698ccf" name="Changes" comment="Refactor and enhance VitePress setup&#10;&#10;Reorganized VitePress configuration with updated paths, removed unnecessary files, and improved component structure. Introduced TypeScript support with the addition of tsconfig files and linting scripts. Updated dependencies to their latest versions while optimizing the project structure for maintainability and compatibility." />
+    <list default="true" id="db674584-fb20-4085-a5ba-086ba1698ccf" name="Changes" comment="Update upload-pages-artifact action to version 3&#10;&#10;Upgraded the GitHub Action from v2 to v3 in the deploy-docs workflow. This ensures compatibility with the latest improvements and features of the action. No other changes were made to the workflow configuration.">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/deploy-docs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/deploy-docs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/introduction/what.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/introduction/what.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,6 +60,7 @@
     "node.js.selected.package.standard": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "npm.docs:build.executor": "Run",
     "npm.docs:dev.executor": "Run",
     "npm.lint:fix.executor": "Run",
     "prettierjs.PrettierConfiguration.Package": "C:\\Users\\danie\\AppData\\Roaming\\npm\\node_modules\\prettier",
@@ -72,7 +78,17 @@
       <recent name="C:\Users\danie\PhpstormProjects\vuelize-docs\pages" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.docs:dev">
+  <component name="RunManager" selected="npm.docs:build">
+    <configuration name="docs:build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="docs:build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="docs:dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -96,6 +112,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.docs:dev" />
+        <item itemvalue="npm.docs:build" />
         <item itemvalue="npm.lint:fix" />
       </list>
     </recent_temporary>
@@ -116,7 +133,7 @@
       <option name="presentableId" value="Default" />
       <updated>1740341299290</updated>
       <workItem from="1740341300409" duration="3526000" />
-      <workItem from="1740345378855" duration="2867000" />
+      <workItem from="1740345378855" duration="3839000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor and enhance VitePress setup&#10;&#10;Reorganized VitePress configuration with updated paths, removed unnecessary files, and improved component structure. Introduced TypeScript support with the addition of tsconfig files and linting scripts. Updated dependencies to their latest versions while optimizing the project structure for maintainability and compatibility.">
       <option name="closed" value="true" />
@@ -126,7 +143,23 @@
       <option name="project" value="LOCAL" />
       <updated>1740348010453</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Refactor and enhance VitePress setup&#10;&#10;Reorganized VitePress configuration with updated paths, removed unnecessary files, and improved component structure. Introduced TypeScript support with the addition of tsconfig files and linting scripts. Updated dependencies to their latest versions while optimizing the project structure for maintainability and compatibility.">
+      <option name="closed" value="true" />
+      <created>1740348382707</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1740348382707</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Update upload-pages-artifact action to version 3&#10;&#10;Upgraded the GitHub Action from v2 to v3 in the deploy-docs workflow. This ensures compatibility with the latest improvements and features of the action. No other changes were made to the workflow configuration.">
+      <option name="closed" value="true" />
+      <created>1740348569519</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1740348569519</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,7 +167,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Refactor and enhance VitePress setup&#10;&#10;Reorganized VitePress configuration with updated paths, removed unnecessary files, and improved component structure. Introduced TypeScript support with the addition of tsconfig files and linting scripts. Updated dependencies to their latest versions while optimizing the project structure for maintainability and compatibility." />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor and enhance VitePress setup&#10;&#10;Reorganized VitePress configuration with updated paths, removed unnecessary files, and improved component structure. Introduced TypeScript support with the addition of tsconfig files and linting scripts. Updated dependencies to their latest versions while optimizing the project structure for maintainability and compatibility." />
+    <MESSAGE value="Update upload-pages-artifact action to version 3&#10;&#10;Upgraded the GitHub Action from v2 to v3 in the deploy-docs workflow. This ensures compatibility with the latest improvements and features of the action. No other changes were made to the workflow configuration." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update upload-pages-artifact action to version 3&#10;&#10;Upgraded the GitHub Action from v2 to v3 in the deploy-docs workflow. This ensures compatibility with the latest improvements and features of the action. No other changes were made to the workflow configuration." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -42,8 +42,16 @@ export default defineConfig({
     cleanUrls: true,
     base: "/vuelize/",
     vite: {
+        optimizeDeps: {
+            include: ['vuelize'],
+        },
+        resolve: {
+            extensions: ['.mjs', '.js', '.ts', '.jsx', '.tsx', '.json', '.css'],
+        },
+
         ssr: {
             noExternal: [
+                "vuelize",
                 "@morev/vue-transitions",
                 "lodash"
             ]
