@@ -6,7 +6,7 @@ export default defineConfig({
     title: "Vuelize",
     description: "Realize the Impossible",
     themeConfig: {
-        logo: "/vuelize/logo.svg",
+        logo: "/logo.svg",
         sidebar: [
             {
                 text: "Introduction",
@@ -40,7 +40,7 @@ export default defineConfig({
         ]
     },
     cleanUrls: true,
-    base: "/vuelize/",
+    base: "/",
     vite: {
         optimizeDeps: {
             include: ['vuelize'],

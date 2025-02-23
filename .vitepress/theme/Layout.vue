@@ -48,7 +48,7 @@ onMounted(() => {
   <d-root>
     <template v-slot:toolbar>
       <d-toolbar>
-        <d-row :wrap="false" align="center" class="pl-2" glow height="50px" link="/vuelize/"
+        <d-row :wrap="false" align="center" class="pl-2" glow height="50px" link="/"
                width="max-content"
         >
           <d-image :src="themeConfig.logo.toString()" class="logo" height="calc(100% - 10px)"
@@ -82,8 +82,10 @@ onMounted(() => {
             </d-card-subtitle>
           </template>
           <d-list v-model="route.path" :color="ThemeColorProperty.primary" class="pa-0" mandatory>
-            <d-list-item v-for="item in group.items" :key="`/vuelize${item.link}`"
-                         :link="`/vuelize${item.link}`"
+            <d-list-item
+                v-for="item in group.items"
+                :key="item.link"
+                :link="item.link"
             >
               {{ item.text }}
             </d-list-item>
