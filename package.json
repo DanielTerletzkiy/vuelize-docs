@@ -1,7 +1,8 @@
 {
   "author": {
-    "email": "danielterletzkiy@gmail.com",
-    "name": "Daniel Terletzkiy"
+    "email": "daniel@terletzkiy.de",
+    "name": "Daniel Terletzkiy",
+    "url": "https://daniel.terletzkiy.de"
   },
   "repository": {
     "type": "git",
@@ -12,14 +13,25 @@
   "scripts": {
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview"
+    "docs:preview": "vitepress preview",
+    "lint": "eslint . --ext .js,.vue,.ts",
+    "lint:fix": "eslint . --ext .js,.vue,.ts --fix"
   },
   "dependencies": {
-    "vitepress": "^1.0.0-rc.4",
-    "vuelize": "^1.0.0"
+    "vitepress": "^1.6.3",
+    "vue": "^3.5.13",
+    "vuelize": "^1.1.12"
   },
   "devDependencies": {
-    "markdown-it-container": "^3.0.0",
-    "vue": "^3.3.4"
+    "@typescript-eslint/eslint-plugin": "^6.9.1",
+    "@typescript-eslint/parser": "^6.9.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-unused-imports": "^3.1.0",
+    "eslint-plugin-vue": "^9.23.0",
+    "markdown-it-container": "^4.0.0",
+    "typescript": "^5.7.3",
+    "vite": "^6.1.1",
+    "vue-eslint-parser": "^9.4.3",
+    "vue-tsc": "^2.2.4"
   }
 }

@@ -14,14 +14,29 @@ export default defineConfig({
                 items: [
                     {
                         text: "What is it?",
-                        link: "/introduction/what"
+                        link: "/docs/introduction/what"
                     },
                     {
                         text: "Getting Started",
-                        link: "/introduction/getting-started"
+                        link: "/docs/introduction/getting-started"
+                    },
+                ]
+            },
+            {
+                text: "Components",
+                collapsed: false,
+                items: [
+                    {
+                        text: "What is it?",
+                        link: "/docs/components/what"
+                    },
+                    {
+                        text: "Getting Started",
+                        link: "/docs/components/getting-started"
                     },
                 ]
             }
+
         ]
     },
     cleanUrls: true,
@@ -29,7 +44,6 @@ export default defineConfig({
     vite: {
         ssr: {
             noExternal: [
-                "vue3-unicons",
                 "@morev/vue-transitions",
                 "lodash"
             ]
