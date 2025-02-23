@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db674584-fb20-4085-a5ba-086ba1698ccf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.eslintrc.cjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/introduction/getting-started.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/introduction/what.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vuelize-docs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vuelize-docs.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/theme/Layout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/theme/Layout.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/theme/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/theme/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/introduction/what.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="db674584-fb20-4085-a5ba-086ba1698ccf" name="Changes" comment="Refactor and enhance VitePress setup&#10;&#10;Reorganized VitePress configuration with updated paths, removed unnecessary files, and improved component structure. Introduced TypeScript support with the addition of tsconfig files and linting scripts. Updated dependencies to their latest versions while optimizing the project structure for maintainability and compatibility." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,6 +45,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/danie/PhpstormProjects/vuelize-docs",
     "node.js.detected.package.eslint": "true",
@@ -128,12 +116,25 @@
       <option name="presentableId" value="Default" />
       <updated>1740341299290</updated>
       <workItem from="1740341300409" duration="3526000" />
-      <workItem from="1740345378855" duration="2543000" />
+      <workItem from="1740345378855" duration="2867000" />
     </task>
+    <task id="LOCAL-00001" summary="Refactor and enhance VitePress setup&#10;&#10;Reorganized VitePress configuration with updated paths, removed unnecessary files, and improved component structure. Introduced TypeScript support with the addition of tsconfig files and linting scripts. Updated dependencies to their latest versions while optimizing the project structure for maintainability and compatibility.">
+      <option name="closed" value="true" />
+      <created>1740348010453</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1740348010453</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Refactor and enhance VitePress setup&#10;&#10;Reorganized VitePress configuration with updated paths, removed unnecessary files, and improved component structure. Introduced TypeScript support with the addition of tsconfig files and linting scripts. Updated dependencies to their latest versions while optimizing the project structure for maintainability and compatibility." />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor and enhance VitePress setup&#10;&#10;Reorganized VitePress configuration with updated paths, removed unnecessary files, and improved component structure. Introduced TypeScript support with the addition of tsconfig files and linting scripts. Updated dependencies to their latest versions while optimizing the project structure for maintainability and compatibility." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
